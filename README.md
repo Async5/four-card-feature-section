@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/four-card-feature-section-with-nextjs-styledcomponents-TPNJ5DVy8)
-- Live Site URL: [live site URL here](https://gifted-heisenberg-9873d3.netlify.app/)
+- Live Site URL: [live site URL here](https://fervent-northcutt-aea0c7.netlify.app/)
 
 ## My process
 
