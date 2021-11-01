@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from 'next/image';
 import {
   StyledCard,
   CardHeading,
@@ -15,7 +14,7 @@ const Card = ({ icon, heading, paragraph, color }) => {
         <CardParagraph>{paragraph}</CardParagraph>
       </div>
       <CardImage>
-        <Image src={icon} alt="icon" />
+        <img src={icon} alt="icon" />
       </CardImage>
     </StyledCard>
   );

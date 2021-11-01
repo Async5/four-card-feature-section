@@ -2,11 +2,6 @@ import { StyledCardContainer } from './CardContainerStyles';
 
 import Card from './Card/Card';
 
-import iconSupervisor from '../../images/icon-supervisor.svg';
-import iconKarma from '../../images/icon-karma.svg';
-import iconCalculator from '../../images/icon-calculator.svg';
-import iconTeam from '../../images/icon-team-builder.svg';
-
 const CardContainer = () => {
   return (
     <StyledCardContainer>
@@ -14,20 +9,20 @@ const CardContainer = () => {
         color="cyan"
         heading="Supervisor"
         paragraph="Monitors activity to identify project roadblocks"
-        icon={iconSupervisor}
+        icon="/icon-supervisor.svg"
       />
       <div>
         <Card
           color="red"
           heading="Team Builder"
           paragraph="Scans our talent network to create the optimal team for your project"
-          icon={iconTeam}
+          icon="/icon-team-builder.svg"
         />
         <Card
           color="orange"
           heading="Karma"
           paragraph="Regularly evaluates our talent to ensure quality"
-          icon={iconKarma}
+          icon="/icon-karma.svg"
         />
       </div>
 
@@ -35,7 +30,7 @@ const CardContainer = () => {
         color="blue"
         heading="Calculator"
         paragraph="Uses data from past projects to provide better delivery estimates"
-        icon={iconCalculator}
+        icon="/icon-calculator.svg"
       />
     </StyledCardContainer>
   );
